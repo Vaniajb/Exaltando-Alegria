@@ -1,0 +1,18 @@
+.footer{
+    bottom: 0;
+    background-color: azure;
+    width: 90%;
+    text-align: center;
+}
+body{
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icones{
+    margin-left: px;
+    text-align: center;
+}
+footer{
+    background-color: antiquewhite;
+}
