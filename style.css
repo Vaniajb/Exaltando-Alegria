@@ -5,14 +5,67 @@
     text-align: center;
 }
 body{
-    background-image: url(img/fundo.png);
+    background-image: url(img/fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .icones{
-    margin-left: px;
+    margin-left: 1px;
     text-align: center;
 }
 footer{
     background-color: antiquewhite;
 }
+.card
+{
+    background-color: rgb(148, 134, 162);
+  
+}
+.container{
+    background-color: rgb(185, 167, 202);
+}
+footer {
+    color: white;
+    background: rgb(230, 223, 223);
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+  }
+  
+  footer:hover,
+  footer:focus {
+    background: rgb(113, 62, 62);
+    transform: translateX(20px) scale(0.8);
+    
+  }
+
+  img{
+  max-height: 500px;
+  max-width: 200px;
+  align-items: center;
+  }
+  .bloco {
+    width: 250px;
+    margin: 15px;
+  }
+  .bloco img{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  }
+  .bloco img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+  }
+
+
+.centralizar{
+    width: 1000px; 
+    margin-left: auto;
+    margin-right: auto; 
+
+    
+}
+.centralizar1{
+    width: 100px;
+    height: 100px;
+}
+
